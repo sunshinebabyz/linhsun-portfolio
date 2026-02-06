@@ -1,7 +1,7 @@
-baseURL: "https://hugo-profile.netlify.app"
+baseURL: "/"
 languageCode: "en-us"
-title: "Hugo Profile"
-theme: hugo-profile
+title: "linh Profile"
+theme: linh-profile
 
 outputs:
   home:
@@ -59,8 +59,8 @@ Menus:
     #   weight: 2
 
 params:
-  title: "Hugo Profile"
-  description: Text about my cool site
+  title: "linh Profile"
+  description:"Business Analyst | Data Analyst | Tester"
   # staticPath: ""  # The path to serve the static files from
   favicon: "/fav.png"
 
@@ -115,7 +115,7 @@ params:
     align: ms-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
     # brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
     # showBrandLogo: false # Show brand logo in nav bar | default is true
-    brandName: "Hugo Profile" # Brand name for the brand | default is the title variable
+    brandName: "linh Profile" # Brand name for the brand | default is the title variable
     disableSearch: false
     # searchPlaceholder: "Search"
     stickyNavBar:
@@ -133,10 +133,10 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Isabella."
-    subtitle: "I build things for the web"
-    content: "A passionate web app developer. I tend to make use of modern web technologies to build websites that look great, feel fantastic, and function correctly."
+    intro: "Hi, I'm"
+    title: "linh."
+    subtitle: "Business Analyst | Data Analyst | QA Tester"
+    content: "A final-year Information Management student at USSH – VNUHCM, passionate about building reliable, user-centered products. I bridge business needs and data insights, and I enjoy ensuring quality through thoughtful testing, clear test cases, and continuous improvement."
     image: /images/hero.svg
     bottomImage:
       enable: true
@@ -150,12 +150,8 @@ params:
     socialLinks:
       fontAwesomeIcons:
         - icon: fab fa-github
-          url: https://example.com
-        - icon: fab fa-x-twitter
-          url: https://example.com
-      customIcons:
-        - icon: /fav.png
-          url: "https://example.com"
+          url: https://github.com/sunshinebabyz
+
 
   # About
   about:
@@ -312,9 +308,9 @@ params:
       - title: Facebook Hackathon Winner
         content: Developed a product using Artificial Intelligence.
         image: /images/achievement.jpg
-      - title: Hugo Profile
+      - title: linh Profile
         content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
+        url: "https://github.com/gurusabarish/linh-profile"
         image: /images/achievement.jpg
       - title: Microsoft Imagine Runner
         content: We are developed a product which can help others.
@@ -327,23 +323,23 @@ params:
     enable: true
     # title: "Custom Name"
     items:
-      - title: Hugo Profile
-        content: A highly customizable and mobile first Hugo template for personal portfolio and blog.
+      - title: linh Profile
+        content: A highly customizable and mobile first linh template for personal portfolio and blog.
         image: /images/projects/profile.png
         featured:
           name: Demo
-          link: https://hugo-profile.netlify.app
+          link: https://linh-profile.netlify.app
         badges:
-          - "Hugo"
+          - "linh"
           - "Bootstrap"
           - "Javascript"
         links:
           - icon: fa fa-envelope
-            url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+            url: mailto:?subject=linh%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2flinh-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/hugo-profile
+            url: https://github.com/gurusabarish/linh-profile
           - icon: fab fa-twitter
-            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Flinh-profile
 
       - title: Image Converter
         content: A web app to convert image to pdf, png to jpg, png to jpg and png to webp without database using django.
@@ -358,19 +354,19 @@ params:
           - icon: fab fa-github
             url: https://github.com/gurusabarish/converter
 
-      - title: Hugo Profile V2
-        content: A clean and simple Hugo template for personal portfolio and blog.
+      - title: linh Profile V2
+        content: A clean and simple linh template for personal portfolio and blog.
         image: /images/projects/profile2.jpg
         featured:
           name: Demo V2
-          link: https://hugo-profile-2.netlify.app
+          link: https://linh-profile-2.netlify.app
         badges:
-          - "Hugo"
+          - "linh"
           - "Bootstrap"
           - "Javascript"
         links:
           - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+            url: https://github.com/gurusabarish/linhProfileV2
 
   #Contact
   contact:
@@ -430,3 +426,4 @@ params:
 
   #customScripts: -| # You can add custom scripts which will be added before </body> tag
   #  <script type="text/javascript"><!-- any script here --></script>
+
